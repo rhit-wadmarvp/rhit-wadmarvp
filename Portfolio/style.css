@@ -76,14 +76,15 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 35%;
+    flex-basis: 45%;
+    text-align: right;
 }
 .about-col-1 img{
-    width: 100%;
-    border-radius: 15px;
+    width: 350px;
+    border-radius: 5px;
 }
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 50%;
 }
 .sub-title{
     margin-bottom: 40px;
@@ -137,24 +138,26 @@ nav ul li a:hover::after{
 }
 /*internships*/
 .internships-row{
+    margin: 30px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .internships-col-1{
     flex-basis: 18%;
+    text-align: right;
 }
 .internships-col-1 img{
-    width: 50%;
-    border-radius: 15px;
-    margin-bottom: 30px;
+    width: 150px;
+    border-radius: 5px;
 }
 .internships-col-2{
-    flex-basis: 80%;
+    flex-basis: 77%;
 }
 .internships-col-2 p{
     font-size: 20px;
 }
+
 /*portfolio*/
 #portfolio{
     padding: 50px 0;
